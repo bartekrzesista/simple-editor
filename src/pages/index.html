@@ -5,20 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My simple editor</title>
     <meta name="description" content="Simple editor that can save the data after refresh" />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
   </head>
   <body>
     <main class="main">
       <header class="main__header">
         <h1 class="main__heading">My editor</h1>
       </header>
-      <section class="editor">
-        <textarea class="editor__textarea" cols="30" rows="5" placeholder="Type your text here"></textarea>
+      <form class="editor">
+        <textarea class="editor__textarea" aria-label="Enter your text here" placeholder="Enter your text here"></textarea>
         <div class="editor__btn-wrapper">
         <button class="editor__btn editor__btn-load" type="button">Load</button>
         <button class="editor__btn editor__btn-save" type="button">Save</button>
       </div>
-      </section>
+      </form>
     </main>
   </body>
 </html>
