@@ -1,8 +1,8 @@
-## Available scripts
+# Simple editor
 
-`npm run start` - runs development mode
+Simple editor that can save the text inside.
 
-`npm run build` - runs build process for production
+## How to use it?
 
-`npm run publish` - runs build process and publish the page using `gh-pages` branch
-
+First, type some words in the editor. Then click **Save** button.
+Now you saved your text, so you can refresh the page or close it. When you are back on it, click **Load** to put the text back in his place.
